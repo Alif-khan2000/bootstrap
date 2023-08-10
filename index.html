@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+<body>
+  <div class="container-fluid m-0 p-0">
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body position-fixed z-1 p-3" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Trip-With-Us</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Spots">Spots</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="slider">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="palace.jpg" class="d-block w-100 object-fit-contain" alt="...">
+            <div class="carousel-caption d-none d-md-block text-white">
+              <h5>Mysore Palace</h5>
+              <p>where the past and present meet in perfect harmony.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="taj-mahal.jpg" class="d-block w-100 object-fit-contain" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Taj Mahal</h5>
+              <p>a love story written in marble.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="ooty.jpg" class="d-block w-100 object-fit-contain" alt="...">
+            <div class="carousel-caption d-none d-md-block text-white">
+              <h5>Ooty</h5>
+              <p>where the mountains meet the clouds.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div id="Spots">
+    <div class="img-des d-flex p-5 column-gap-5 flex-wrap flex-md-nowrap">
+        <img src="taj-mahal.jpg" alt="" class="taj col-12 col-md-4">
+        <div class="accordion mt-4 col-12 col-md-7" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Architectural Marvel
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong> "A Symbol of Architectural Elegance"</strong> The Taj Mahal is renowned worldwide for its stunning architectural design and intricate craftsmanship.
+                Built in the 17th century by the Mughal Emperor Shah Jahan, it stands as a testament to the pinnacle of Mughal art and architecture.
+                Its symmetrical layout, white marble façade, and intricate inlay work make it a true masterpiece.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Monument of Love
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>A Timeless Monument of Eternal Love</strong> The Taj Mahal holds deep romantic significance as a mausoleum built by Shah Jahan in memory of his beloved wife Mumtaz Mahal.
+                The monument symbolizes undying love and devotion, with its construction representing Shah Jahan's grief and affection.
+                Its beauty and meaning have made it a UNESCO World Heritage Site and an enduring emblem of love.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Cultural Heritage
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>"Preserving Centuries of Cultural Heritage"</strong> The Taj Mahal is a vital part of India's rich cultural heritage, reflecting the fusion of Persian, Islamic, and Indian architectural styles.
+                Visitors from around the globe are captivated by its historical and cultural significance, making it one of the most visited tourist attractions in the world.
+                Efforts are continually made to conserve and protect this iconic monument, ensuring its legacy endures for generations to come.
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="img-des d-flex p-5 column-gap-5 flex-wrap flex-md-nowrap">
+      <div class="accordion mt-4 col-12 col-md-7" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#seccollapseOne" aria-expanded="true" aria-controls="seccollapseOne">
+              Hill Station Retreat
+            </button>
+          </h2>
+          <div id="seccollapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong> "Tranquil Escapes in the Hills"</strong> Ooty, also known as the "Queen of Hill Stations," is a picturesque destination nestled in the Nilgiri Hills of Southern India.
+              Its cool climate, lush greenery, and charming landscapes have made it a popular hill station getaway.
+              Visitors are drawn to Ooty's refreshing ambiance, making it a perfect place to unwind and rejuvenate.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#seccollapseTwo" aria-expanded="false" aria-controls="seccollapseTwo">
+              Botanical Beauty
+            </button>
+          </h2>
+          <div id="seccollapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong> "A Floral Wonderland of Breathtaking Gardens"</strong>Ooty is famous for the Government Botanical Garden, home to a diverse collection of plants, flowers, and trees.
+              The garden showcases a wide range of indigenous and exotic species, including rare orchids and vibrant roses.
+              Its vibrant colors and fragrant blooms attract nature enthusiasts and tourists alike.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#seccollapseThree" aria-expanded="false" aria-controls="seccollapseThree">
+              Toy Train Adventure
+            </button>
+          </h2>
+          <div id="seccollapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong> "Chugging Through Scenic Landscapes"</strong>Ooty is known for the Nilgiri Mountain Railway, a UNESCO World Heritage Site, which offers a delightful toy train journey.
+              The train meanders through picturesque valleys, lush tea gardens, and quaint villages, providing breathtaking views.
+              Riding the toy train is not just a mode of transportation but a memorable experience that encapsulates Ooty's charm.
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="ooty.jpg" alt="" class="taj col-12 col-md-4 mt-3">
+  </div>
+  <div class="img-des d-flex p-5 column-gap-5 flex-wrap flex-md-nowrap">
+    <img src="palace.jpg" alt="" class="taj col-12 col-md-4 mt-3">
+    <div class="accordion mt-4 col-12 col-md-7" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#thirdcollapseOne" aria-expanded="true" aria-controls="thirdcollapseOne">
+            Regal Grandeur
+          </button>
+        </h2>
+        <div id="thirdcollapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong> "A Majestic Gem of Mysore"</strong> The Mysore Palace, also known as the Amba Vilas Palace, is a resplendent example of Indo-Saracenic architecture.
+            Located in Mysore, India, it served as the official residence of the Wadiyar dynasty, the erstwhile rulers of Mysore.
+            The palace's intricate detailing, arches, domes, and stunning façade make it a visual marvel that exudes royal grandeur.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#thirdcollapseTwo" aria-expanded="false" aria-controls="thirdcollapseTwo">
+            Festival of Lights
+          </button>
+        </h2>
+        <div id="thirdcollapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>"Dazzling Illumination During Dussehra"</strong> Mysore Palace takes on a new life during the Dussehra festival, where it becomes a canvas of vibrant lights and decorations.
+            The palace is illuminated with thousands of lights, creating a breathtaking spectacle that attracts tourists from all over.
+            The annual Dussehra celebrations at the palace are a cultural extravaganza that showcases the rich heritage of the region.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#thirdcollapseThree" aria-expanded="false" aria-controls="thirdcollapseThree">
+            Historical Legacy
+          </button>
+        </h2>
+        <div id="thirdcollapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>"Echoes of a Glorious Past"</strong> The Mysore Palace holds historical significance, as it was the seat of power for the Mysore kingdom for centuries.
+            The palace interiors are adorned with intricate carvings, ornate ceilings, and a rich collection of artifacts that narrate the dynasty's history.
+            While the palace is now a museum, it continues to evoke the splendor and opulence of Mysore's royal past.
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+<div class="p-5" id="pricing">
+  <h1 class="display-6 text-center">Prices</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+    <div class="col-12 col-md-3 mx-auto">
+      <div class="card h-100">
+        <img src="ooty.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rs.3000</h5>
+          <p class="card-text">Includes Food & Accomedation</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Exciting offers will be available soon...</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-3 mx-auto">
+      <div class="card h-100">
+        <img src="taj-mahal.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rs.12000</h5>
+          <p class="card-text">Five member pack with food and accomedation</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Exciting offers will be available soon...</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-3 mx-auto">
+      <div class="card h-100">
+        <img src="palace.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rs.6000</h5>
+          <p class="card-text">Includes Food & Accomedation</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Exciting offers will be available soon...</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <footer id="footer" class="footer-1">
+    <div class="main-footer widgets-dark typo-light">
+    <div class="container">
+    <div class="row">
+    
+      <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="widget subscribe no-box">
+    <h5 class="widget-title">Trip-With-Us<span></span></h5>
+    <p>Travel Agency, more than 10 years of experience</p>
+    </div>
+    </div>
+    
+      
+    <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="widget no-box">
+    <h5 class="widget-title">Quick Links<span></span></h5>
+    <ul class="thumbnail-widget">
+    <li>
+    <div class="thumb-content"><a href="#.">&nbsp;Get Started</a></div> 
+    </li>
+    <li>
+    <div class="thumb-content"><a href="#.">&nbsp;Top Leaders</a></div> 
+    </li>
+    <li>
+    </ul>
+    </div>
+    </div>
+    
+      
+    
+          <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="widget no-box">
+    <h5 class="widget-title">Follow up<span></span></h5>
+                <a href="#"> <i class="fa fa-facebook"> </i> </a>
+                <a href="#"> <i class="fa fa-twitter"> </i> </a>
+                <a href="#"> <i class="fa fa-youtube"> </i> </a>
+    </div>
+    </div>
+    <br>
+      <br>
+    
+    
+    <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="widget no-box">
+    <h5 class="widget-title">Contact Us<span></span></h5>
+                <p>Kollam, Kerala, Pincode : 691001 <br>Phone No : +91 1234567890</p>
+      <div class="emailfield">
+    <input type="text" name="email" value="Email">
+    <input name="uri" type="hidden" value="arabiantheme">
+    <input name="loc" type="hidden" value="en_US">
+    <input class="submitbutton ripplelink" type="submit" value="Subscribe">
+    </form>  
+    </div>
+    </div>
+    
+    </div>
+    </div>
+    </div>
+      
+    <div class="footer-copyright">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12 text-center">
+    <p>Copyright Design Alif Khan © 2023. All rights reserved.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </footer>
+  
+</div>
+</div>
+   
+  </div>
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
